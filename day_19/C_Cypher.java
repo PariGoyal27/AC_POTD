@@ -1,4 +1,4 @@
-package day_19;
+//https://codeforces.com/problemset/problem/1703/C
 import java.util.*;
 
 public class C_Cypher {
