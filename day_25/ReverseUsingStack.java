@@ -1,4 +1,4 @@
-package day_27;
+package day_25;
 //https://www.geeksforgeeks.org/problems/reverse-a-string-using-stack/1
 
 import java.util.Stack;

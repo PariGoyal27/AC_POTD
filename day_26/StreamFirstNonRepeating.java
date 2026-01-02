@@ -1,4 +1,4 @@
-package day_28;
+package day_26;
 //https://www.geeksforgeeks.org/problems/first-non-repeating-character-in-a-stream1216/1
 import java.util.*;
 

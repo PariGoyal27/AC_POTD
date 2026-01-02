@@ -1,3 +1,5 @@
+package POTDs.day_3;
+
 import java.util.*;
 
 class Solution {

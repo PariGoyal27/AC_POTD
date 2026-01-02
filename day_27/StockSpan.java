@@ -1,4 +1,4 @@
-package day_29;
+package day_27;
 //https://www.geeksforgeeks.org/problems/stock-span-problem-1587115621/1
 import java.util.*;
 

@@ -6,8 +6,8 @@ public class B_Long_Long {
         long maxSum = 0;
         for (int i = 0; i < arr.length; i++) {
             maxSum += Math.abs(arr[i]);
-            if (arr[i] < 0 && flag == 1) {
-                flag = 0;
+            if (arr[i] < 0 && flag == 1) { 
+                flag = 0; // Agr -ve -ve aur 0 adjacently aa rhe ho to op++ nhi krna h
                 op++;
             }else if(arr[i] > 0)
                 flag = 1;

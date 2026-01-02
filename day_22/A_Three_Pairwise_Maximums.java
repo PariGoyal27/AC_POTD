@@ -1,3 +1,4 @@
+package day_22;
 import java.util.*;
 
 public class A_Three_Pairwise_Maximums {
@@ -10,12 +11,12 @@ public class A_Three_Pairwise_Maximums {
             for (int i = 0; i < arr.length; i++) {
                 arr[i] = sc.nextLong();
             }
-            long max = arr[0], min = arr[0];
-            //Finding max
-            for (int i = 1; i < arr.length; i++) {
-                if(arr[i] >= max) max = arr[i];
-                if(arr[i] < min) min = arr[i];
-            }
+            Arrays.sort(arr);
+            long max = arr[2], min = arr[0];
+            // for (int i = 1; i < arr.length; i++) {
+            //     if(arr[i] >= max) max = arr[i];
+            //     if(arr[i] < min) min = arr[i];
+            // }
             int countMax = 0;
             //Counting frequency of max
             for (int i = 0; i < arr.length; i++) {

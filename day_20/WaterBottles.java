@@ -1,4 +1,4 @@
-package day_21;
+// package day_20;
 //https://leetcode.com/problems/water-bottles/
 
 public class WaterBottles {

@@ -1,4 +1,4 @@
-package day_24;
+package day_23;
 import java.util.*;
 
 public class B_Luntik_and_Subsequences {

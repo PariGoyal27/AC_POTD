@@ -1,4 +1,4 @@
-package day_26;
+package day_24;
 //https://www.geeksforgeeks.org/problems/implement-stack-using-array/1
 class myStack {
     int[] arr;

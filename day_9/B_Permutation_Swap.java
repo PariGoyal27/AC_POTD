@@ -21,17 +21,14 @@ public class B_Permutation_Swap {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         int tc = sc.nextInt();
-        int[] ans = new int[tc];
-        for (int i = 0; i < tc; i++) {
+        while (tc-- > 0) {
             int n = sc.nextInt();
             int[] arr = new int[n];
             for (int j = 0; j < n; j++) {
                 arr[j] = sc.nextInt();
             }
-            ans[i] = countK(arr, n);
+            System.out.println(countK(arr, n)); 
         }  
-        for (int i = 0; i < ans.length; i++) {
-            System.out.println(ans[i]);
-        } 
+        sc.close();
     }    
 }

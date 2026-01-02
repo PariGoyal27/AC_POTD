@@ -1,4 +1,4 @@
-package day_20;
+package day_19;
 //https://leetcode.com/problems/partitioning-into-minimum-number-of-deci-binary-numbers/description/
 
 public class PartitionDeciBin {

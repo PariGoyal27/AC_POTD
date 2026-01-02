@@ -1,4 +1,4 @@
-package day_20;
+package day_19;
 //https://leetcode.com/problems/string-compression-iii/
 
 public class StringCompressionIII {

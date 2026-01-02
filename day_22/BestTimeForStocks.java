@@ -1,4 +1,4 @@
-package day_23;
+// package day_22;
 
 public class BestTimeForStocks {
     public int maxProfit(int[] prices) {

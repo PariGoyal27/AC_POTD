@@ -1,4 +1,6 @@
-class Solution {
+package POTDs.day_4;
+
+class GCDofArray {
     public int maxElement(int[] nums){
         int max = nums[0];
         for(int i : nums){

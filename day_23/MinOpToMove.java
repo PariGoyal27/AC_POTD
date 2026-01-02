@@ -1,4 +1,4 @@
-package day_24;
+package day_23;
 
 public class MinOpToMove {
     public int[] minOperations(String boxes) {

@@ -13,7 +13,8 @@ public class A_Chewbacca_and_Number {
                 num[i] = (char)('0' + (9 - d));
             }
         }
-        System.out.println(new String(num));       
+        System.out.println(new String(num)); 
+        sc.close();
     }
 }
     // public static long reverse(long num){

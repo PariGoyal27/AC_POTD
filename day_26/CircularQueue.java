@@ -1,4 +1,4 @@
-package day_28;
+package day_26;
 //https://leetcode.com/problems/design-circular-queue/
 
 class CircularQueue {
